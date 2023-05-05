@@ -32,8 +32,8 @@
 лечится так – \
 Смотрим подробную инфу о нашем созданном томе –\
 `docker inspect gitlab-runner-config` , где `gitlab-runner-config` - наш том\
-Находим, что он находится - `/var/lib/volumes/gitlab-runner-config/_data`\
-Меняем каталог на -  `/var/lib/volumes/gitlab-runner-config/_data`\
+Находим, что он находится - `/var/lib/docker/volumes/gitlab-runner-config/_data`\
+Меняем каталог на -  `/var/lib/docker/volumes/gitlab-runner-config/_data`\
 Редактируем -  `config.toml`  
 Находим наш раннер и в строке – Volumes - в квадратных скобках через запятую к записи рядом – `“/cache” добавляем – “/var/run/docker.sock:/var/run/docker.sock”`\
 9. Настраиваем для нашего проекта – Container Registry\
