@@ -1,1 +1,1 @@
-#  **Локальная настройка GITLAB + gitlab runner + docker registry для CICD**
+###  **Локальная настройка GITLAB + gitlab runner + docker registry для CICD**
