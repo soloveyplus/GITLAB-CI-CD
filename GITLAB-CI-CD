@@ -1,5 +1,4 @@
 Локальная настройка GITLAB + gitlab runner + docker registry для CICD
-***
 Так как работа предполагается в локальном пользовании, сертификаты не используем.
 Так же и для docker registry. Все по HTTP.
 1. Создаем записи типа A – gitlab и registry
