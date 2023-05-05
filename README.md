@@ -1,1 +1,2 @@
-###  **Локальная настройка GITLAB + gitlab runner + docker registry для CI/CD**
+# GITLAB + gitlab runner + docker registry для CI/CD
+Локальная настройка
